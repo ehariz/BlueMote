@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_keyboard_arrow_right.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_skip_next.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_skip_next.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_device_access_bluetooth_searching.png",
+        "source": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\src\\main\\res\\drawable-xhdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_keyboard_arrow_left.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_skip_previous.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_skip_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_volume_up.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_volume_up.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_center_focus_strong.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_center_focus_strong.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pause.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_device_access_bluetooth_searching.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_volume_down.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_volume_down.png"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_volume_off.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\drawable-xhdpi\\ic_volume_off.png"
+    }
+]

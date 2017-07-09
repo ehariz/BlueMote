@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    }
+]
