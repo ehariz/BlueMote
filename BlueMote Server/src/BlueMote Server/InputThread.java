@@ -17,16 +17,14 @@ public class InputThread implements Runnable {
 	ByteArrayOutputStream result = new ByteArrayOutputStream();
 	private StreamConnection comConnection;
 	char[] charArray = new char[255];
-	//int[] byteArray = new int[255];
 	int bytes;
 	int i = 0;
 	String command ="";
 	int byteCommand = 0;
-	boolean key_switch = false;
-	boolean commandProcessed = false;
-	String prefix;
-	Scanner sc = new Scanner(System.in);
-	//Initializing to each command than can be received an integer
+	boolean key_switch = false; //checking if we're already in task view
+	boolean commandProcessed = false; 
+	String prefix; //The prefix indicates what kind of command we're receiving (mouse_move for instance)
+
 	
 	public InputThread (StreamConnection connection)
 	{
@@ -42,25 +40,19 @@ public class InputThread implements Runnable {
 			
 			while (true) {
 				bytes = inputStream.read();
-				//System.out.println(bytes);
-				if (bytes != 36) {
-				//System.out.println(bytes);
+				if (bytes != 36) { //if we haven't reached the end of the command, 
+				//which is delimited by the '$'character
 				charArray[i] = (char) bytes;
 				command+=charArray[i];
-				//byteArray[i] = bytes;
 				i++;
 				}
-				if (bytes == 36) {
-					//command = String.valueOf(charArray);
-					//byteCommand = String.valueOf(byteArray);
+				if (bytes == 36) { //If the charcater received is a $, we have reached the end of the command.
+					
 					System.out.println(command);
-					//System.out.println(byteCommand);
-					//System.out.println("processed");
 					i = 0;
 					charArray = new char[255];
-					
-					//byteArray = new int[255];
 					processCommand(command);
+					//reinitializing variables 
 					command="";
 					commandProcessed = false;
 				}
@@ -71,20 +63,10 @@ public class InputThread implements Runnable {
 			e.printStackTrace();
 		}
 	}
-	/*
-	private String streamToString(InputStream is) throws IOException {
-		ByteArrayOutputStream result = new ByteArrayOutputStream();
-		
-		int length;
-		while ((length = is.read(buffer)) != -1) {
-		    result.write(buffer, 0, length);
-		}
-		return result.toString("UTF-8");
-	}
-	*/
+
 	private void processCommand(String command) {
 		try {
-			prefix = stringExtract(command,0,'(');
+			prefix = stringExtract(command,0,'('); // before processing the command, we check what kind of command it is
 			System.out.println(prefix);
 			Robot robot = new Robot();
 			System.out.println(command);
@@ -107,12 +89,14 @@ public class InputThread implements Runnable {
 			switch (command) {
 			case "key_switch" :
 				if (key_switch == true) {
+				// we're in task view, the user has selected a window and pressed the switch button again
 				key_switch = false;
 				System.out.println("Command Enter");
 				robot.keyPress(KeyEvent.VK_ENTER);
 				robot.keyRelease(KeyEvent.VK_ENTER);
 				}
 				if (key_switch == false) {
+				//We're not in task view and the user wants to display it
 				key_switch = true;
 				System.out.println("Command Windows+Tab");
 				robot.keyPress(KeyEvent.VK_WINDOWS);
@@ -153,7 +137,7 @@ public class InputThread implements Runnable {
 		}
 		} 
 
-
+	// This method is used to extract a substring from a string given a start index and a delimiter
 	private String stringExtract(String word, int start, char delimiter) {
 		String substring = "";
 		char cursor = 'a';
