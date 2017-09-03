@@ -22,11 +22,14 @@
 
     <style name="Theme.Sample" parent="Theme.Base" />
 
-    <style name="AppTheme" parent="Theme.Sample" />
-    <!-- Widget styling -->
-
+    <style name="AppTheme" parent="Theme.Sample" >
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:textColorPrimary">@android:color/background_light</item>
+    </style>
     <style name="Widget" />
-
+    <style name="WindowTitleBackground">
+        <item name="android:background">#0000FF</item>
+    </style>
     <style name="Widget.SampleMessage">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:lineSpacingMultiplier">1.1</item>

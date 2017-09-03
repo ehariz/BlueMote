@@ -1,4 +1,0 @@
-#Sun Jun 11 21:29:30 CEST 2017
-base.0=C\:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
-renamed.0=classes.dex
-file.0=C\:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

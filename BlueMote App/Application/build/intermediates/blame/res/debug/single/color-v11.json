@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\elias\\Documents\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

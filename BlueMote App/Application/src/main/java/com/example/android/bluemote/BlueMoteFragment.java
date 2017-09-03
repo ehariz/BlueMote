@@ -81,12 +81,12 @@ public class BlueMoteFragment extends Fragment  {
      * Name of the connected device
      */
     private String mConnectedDeviceName = null;
-
+    private String message = null;
 
     /**
-     * Array adapter for the conversation thread
+     * Array adapter for the commands thread
      */
-    private ArrayAdapter<String> mConversationArrayAdapter;
+    private ArrayAdapter<String> mCommandArrayAdapter;
 
     /**
      * String buffer for outgoing messages
@@ -99,7 +99,7 @@ public class BlueMoteFragment extends Fragment  {
     private BluetoothAdapter mBluetoothAdapter = null;
 
     /**
-     * Member object for the chat services
+     * Member object for the command services
      */
     private BlueMoteService mRemoteService = null;
 
@@ -111,6 +111,7 @@ public class BlueMoteFragment extends Fragment  {
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         MyGestureDetector customGestureDetector = new MyGestureDetector();
         mDetector = new GestureDetector(getActivity(),customGestureDetector);
+
 
 
         // If the adapter is null, then Bluetooth is not supported
@@ -163,7 +164,7 @@ public class BlueMoteFragment extends Fragment  {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_bluetooth_chat, container, false);
+        return inflater.inflate(R.layout.fragment_bluemote, container, false);
     }
 
     @Override
@@ -183,6 +184,7 @@ public class BlueMoteFragment extends Fragment  {
         mTracker = (TextView) getView().findViewById(R.id.tracker);
         mTouchpad = (ImageView) getView().findViewById(R.id.touchpad);
 
+
     }
 
     /**
@@ -192,7 +194,7 @@ public class BlueMoteFragment extends Fragment  {
         Log.d(TAG, "setupRemote()");
 
         // Initialize the array adapter for the conversation thread
-        mConversationArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.message);
+        mCommandArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.message);
 
         // Initialize the compose field with a listener for the return key
         mOutEditText.setOnEditorActionListener(mWriteListener);
@@ -280,12 +282,13 @@ public class BlueMoteFragment extends Fragment  {
                 }
             }
         });
-
+        //Setting a listener to detect gestures on the touchpad
         mTouchpad.setOnTouchListener(new View.OnTouchListener() {
             public boolean onTouch(View view,MotionEvent event) {
                 int index = event.getActionIndex();
                 int action = event.getActionMasked();
                 int pointerId = event.getPointerId(index);
+
                 mDetector.onTouchEvent(event);
                 switch(action) {
                     case MotionEvent.ACTION_DOWN:
@@ -313,14 +316,17 @@ public class BlueMoteFragment extends Fragment  {
                         Log.d("", "Y velocity: " +mVelocityTracker.getYVelocity(pointerId));
                         if (mDetector.onTouchEvent(event))
                             {
-                                String message = ("mouse_click");
+                                message = ("mouse_click");
                                 mTracker.setText("Click detected");
                                 sendMessage(message);
+                                message = "";
                             }
                             else {
+
+                            if(message != null) sendMessage(message);
                             mTracker.setText("X velocity: " + mVelocityTracker.getXVelocity(pointerId) + "; Y velocity : " + mVelocityTracker.getYVelocity(pointerId));
-                            String message = "mouse_move(" + mVelocityTracker.getXVelocity(pointerId) + "," + mVelocityTracker.getYVelocity(pointerId) + ")";
-                                sendMessage(message);
+                            message = "mouse_move(" + mVelocityTracker.getXVelocity(pointerId) + "," + mVelocityTracker.getYVelocity(pointerId) + ")";
+
                             }
 
                         break;
@@ -445,7 +451,7 @@ public class BlueMoteFragment extends Fragment  {
                     switch (msg.arg1) {
                         case BlueMoteService.STATE_CONNECTED:
                             setStatus(getString(R.string.title_connected_to, mConnectedDeviceName));
-                            mConversationArrayAdapter.clear();
+                            mCommandArrayAdapter.clear();
                             break;
                         case BlueMoteService.STATE_CONNECTING:
                             setStatus(R.string.title_connecting);
@@ -460,7 +466,7 @@ public class BlueMoteFragment extends Fragment  {
                     byte[] writeBuf = (byte[]) msg.obj;
                     // construct a string from the buffer
                     String writeMessage = new String(writeBuf);
-                    mConversationArrayAdapter.add("Me:  " + writeMessage);
+                    mCommandArrayAdapter.add("Me:  " + writeMessage);
                     break;
 
                 case Constants.MESSAGE_DEVICE_NAME:

@@ -2,13 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\70a7495ab735fa30d6a64c530bf3a2cf6e7c47fb\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\c7d412cc97b60f71aa04edc8a67c04aeed5c3f89\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4700f436ede140fb804204f806c9cc3f08e386f4">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5fde33723b4e9d46e4351ff1b4320554e351e12e\classes.dex" />
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_3f66ab882eae3999cf08c6fc2d1da5aadd20a791.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\01b23d326f4250a54794063653ec5c71fce04775\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_8b8aa0faa659306f81ec530350042d83d4eaa1c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\b0cc0a63dda0f415d90de4d127ebb933f3d6a19c\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e5b316dc00038610f7437a35daf681266c15767a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -20,13 +38,22 @@
         <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_f0fd9ab793e0a5b342321a8faf6fbb89220db95a.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\378a0273f53deb15b4bb40ee29990e8dcba23a0a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_eacf0799f97396be9575c7703d1c8a58b2630f30.jar" />
+    </item>
+    <item
         is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\output\jars\classes.jar"
+        jar="C:\Users\elias\Documents\BlueMote\BlueMote App\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f0fd9ab793e0a5b342321a8faf6fbb89220db95a\classes.dex" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\elias\Documents\BlueMote\BlueMote App\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d0d7797e168be7f03071fda9d949eaeec46b92c3\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -38,13 +65,13 @@
         <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_5fde33723b4e9d46e4351ff1b4320554e351e12e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\01b23d326f4250a54794063653ec5c71fce04775\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\4eb9c149b2173fea0db51ec329444bc1013827af\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_caf1555242d720df41daf9b6a820c78e67a54f18\classes.dex" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_111aecea162e199aed49ff20d4b8a0852effc339.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +93,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\01f4a01cf840f2b0b0ff8e49e8e213ea27bf556d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_c535f5c20c491dd7d597531a82d58e5f61490c2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\c7d412cc97b60f71aa04edc8a67c04aeed5c3f89\output\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f52d6c1e09fdb5e4c36252cd982eac831115e785.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\elias\.android\build-cache\b0cc0a63dda0f415d90de4d127ebb933f3d6a19c\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -75,12 +120,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\b0cc0a63dda0f415d90de4d127ebb933f3d6a19c\output\jars\classes.jar"
+        jar="C:\Users\elias\Documents\BlueMote\BlueMote App\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60614148ceb0d445ebd08992a0e9b13a51bb88aa\classes.dex" />
+        sha1="7bb5ac88b2fe96187231b8b7858965049354230f">
+        <dex dex="C:\Users\elias\Documents\BlueMote\BlueMote App\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2b5a340fb3cc39d2ad4e7643e985b74cc9d70fd2\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -110,204 +155,6 @@
         <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_fcc1c0311e02157e71c40374724108eb267e6fa7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b7010b6b4ac4ab9f2cfe40c23005312ef900e066">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_294373f4c77cadd483c63e22ca3514f7ff7b4ba5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\6cd8ed65c5a34fb10077a18c24098fed2e469aca\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8df973b8478fae976bf9dc9c33a02ea87bb4d6e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\2c75899332fe16058067600f382f082e7dc76e42\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19ba675ec869ca3322404d49cd9b7cb6d088f0be\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\6cd8ed65c5a34fb10077a18c24098fed2e469aca\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_8df973b8478fae976bf9dc9c33a02ea87bb4d6e4.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\89fcc44600e2784c9add8c5f1b020bfa19665933\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd04139942635c6d368277b07462b610a5e62124\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\4eb9c149b2173fea0db51ec329444bc1013827af\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fcc1c0311e02157e71c40374724108eb267e6fa7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\01b23d326f4250a54794063653ec5c71fce04775\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b8aa0faa659306f81ec530350042d83d4eaa1c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\378a0273f53deb15b4bb40ee29990e8dcba23a0a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eacf0799f97396be9575c7703d1c8a58b2630f30\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\c7d412cc97b60f71aa04edc8a67c04aeed5c3f89\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_3f66ab882eae3999cf08c6fc2d1da5aadd20a791.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\01b23d326f4250a54794063653ec5c71fce04775\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_8b8aa0faa659306f81ec530350042d83d4eaa1c6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\b0cc0a63dda0f415d90de4d127ebb933f3d6a19c\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_e5b316dc00038610f7437a35daf681266c15767a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\378a0273f53deb15b4bb40ee29990e8dcba23a0a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_eacf0799f97396be9575c7703d1c8a58b2630f30.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\4eb9c149b2173fea0db51ec329444bc1013827af\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_111aecea162e199aed49ff20d4b8a0852effc339\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c645da1bc9d6f8aae377185d50388fdc42fc5aca\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\4eb9c149b2173fea0db51ec329444bc1013827af\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_111aecea162e199aed49ff20d4b8a0852effc339.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\b0cc0a63dda0f415d90de4d127ebb933f3d6a19c\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e5b316dc00038610f7437a35daf681266c15767a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\01f4a01cf840f2b0b0ff8e49e8e213ea27bf556d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_c535f5c20c491dd7d597531a82d58e5f61490c2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\elias\.android\build-cache\c7d412cc97b60f71aa04edc8a67c04aeed5c3f89\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f52d6c1e09fdb5e4c36252cd982eac831115e785.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\c7d412cc97b60f71aa04edc8a67c04aeed5c3f89\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f52d6c1e09fdb5e4c36252cd982eac831115e785\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_c0f18d78d336f0ecda02b2d78669e534abb3428d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\01f4a01cf840f2b0b0ff8e49e8e213ea27bf556d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c535f5c20c491dd7d597531a82d58e5f61490c2c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\89fcc44600e2784c9add8c5f1b020bfa19665933\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_1d38caaf2abcc5667cec54515a27b53537f8bff1\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\elias\.android\build-cache\89fcc44600e2784c9add8c5f1b020bfa19665933\output\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
@@ -317,13 +164,13 @@
         <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_1d38caaf2abcc5667cec54515a27b53537f8bff1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\elias\.android\build-cache\c7d412cc97b60f71aa04edc8a67c04aeed5c3f89\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\elias\.android\build-cache\6cd8ed65c5a34fb10077a18c24098fed2e469aca\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\elias\Documents\BlueMote\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f66ab882eae3999cf08c6fc2d1da5aadd20a791\classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\elias\Documents\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes_8df973b8478fae976bf9dc9c33a02ea87bb4d6e4.jar" />
     </item>
 
 </items>
