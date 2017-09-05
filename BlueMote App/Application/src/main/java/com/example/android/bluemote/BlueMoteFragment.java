@@ -232,13 +232,13 @@ public class BlueMoteFragment extends Fragment  {
         });
         mVolOffButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                    String message = "vol_off";
+                    String message = "mute";
                     sendMessage(message);
             }
         });
         mVolDownButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                    String message = "vol_down";
+                    String message = "volumeDown";
                     sendMessage(message);
             }
         });
@@ -247,7 +247,7 @@ public class BlueMoteFragment extends Fragment  {
                 // Send a message using content of the edit text widget
                 View view = getView();
                 if (null != view) {
-                    String message = "vol_up";
+                    String message = "volumeUp";
                     sendMessage(message);
                 }
             }
@@ -257,7 +257,7 @@ public class BlueMoteFragment extends Fragment  {
                 // Send a message using content of the edit text widget
                 View view = getView();
                 if (null != view) {
-                    String message = "skip_previous";
+                    String message = "previous";
                     sendMessage(message);
                 }
             }
@@ -267,7 +267,7 @@ public class BlueMoteFragment extends Fragment  {
                 // Send a message using content of the edit text widget
                 View view = getView();
                 if (null != view) {
-                    String message = "pause_play";
+                    String message = "playPause";
                     sendMessage(message);
                 }
             }
@@ -277,7 +277,7 @@ public class BlueMoteFragment extends Fragment  {
                 // Send a message using content of the edit text widget
                 View view = getView();
                 if (null != view) {
-                    String message = "skip_next";
+                    String message = "next";
                     sendMessage(message);
                 }
             }

@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  CommandJNI.cpp
+     Création de la bibliothèque C:\Users\elias\Documents\BlueMote\CommandJNI2\CommandJNI\Debug\CommandJNI.lib et de l'objet C:\Users\elias\Documents\BlueMote\CommandJNI2\CommandJNI\Debug\CommandJNI.exp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu _main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\elias\Documents\BlueMote\CommandJNI2\CommandJNI\Debug\CommandJNI.exe : fatal error LNK1120: 1 externes non résolus
