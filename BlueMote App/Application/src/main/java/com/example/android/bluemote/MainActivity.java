@@ -38,7 +38,7 @@ public class MainActivity extends SampleActivityBase {
     public static final String TAG = "MainActivity";
 
     // Whether the Log Fragment is currently shown
-    private boolean mLogShown ;
+    //private boolean mLogShown ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +58,7 @@ public class MainActivity extends SampleActivityBase {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
+    /*
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         MenuItem logToggle = menu.findItem(R.id.menu_toggle_log);
@@ -67,11 +67,11 @@ public class MainActivity extends SampleActivityBase {
 
         return super.onPrepareOptionsMenu(menu);
     }
-
+    */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
-            case R.id.menu_toggle_log:
+            /*case R.id.menu_toggle_log:
                 mLogShown = !mLogShown;
                 ViewAnimator output = (ViewAnimator) findViewById(R.id.sample_output);
                 if (mLogShown) {
@@ -81,12 +81,12 @@ public class MainActivity extends SampleActivityBase {
                 }
                 supportInvalidateOptionsMenu();
                 return true;
-        }
+        */}
         return super.onOptionsItemSelected(item);
     }
 
 
-    /** Create a chain of targets that will receive log data */
+    /** Create a chain of targets that will receive log data
     @Override
     public void initializeLogging() {
         // Wraps Android's native log framework.
@@ -104,5 +104,5 @@ public class MainActivity extends SampleActivityBase {
         msgFilter.setNext(logFragment.getLogView());
 
         Log.i(TAG, "Ready");
-    }
+    }*/
 }

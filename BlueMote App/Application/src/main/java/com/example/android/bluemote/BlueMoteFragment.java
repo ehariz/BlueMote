@@ -62,7 +62,7 @@ public class BlueMoteFragment extends Fragment  {
 
     // Layout Views
     private ListView mConversationView;
-    private EditText mOutEditText;
+    //private EditText mOutEditText;
     private Button mSendButton;
     private ImageView mTouchpad;
     private ImageButton mLeftButton;
@@ -170,8 +170,8 @@ public class BlueMoteFragment extends Fragment  {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         //mConversationView = (ListView) view.findViewById(R.id.in);
-        mOutEditText = (EditText) view.findViewById(R.id.edit_text_out);
-        mSendButton = (Button) view.findViewById(R.id.button_send);
+        //mOutEditText = (EditText) view.findViewById(R.id.edit_text_out);
+        //mSendButton = (Button) view.findViewById(R.id.button_send);
         mLeftButton = (ImageButton) view.findViewById(R.id.key_left);
         mRightButton = (ImageButton) view.findViewById(R.id.key_right);
         mSwitchButton = (ImageButton) view.findViewById(R.id.key_switch);
@@ -181,7 +181,7 @@ public class BlueMoteFragment extends Fragment  {
         mPreviousButton = (ImageButton) view.findViewById(R.id.skip_prev);
         mPausePlayButton = (ImageButton) view.findViewById(R.id.pause_play);
         mNextButton = (ImageButton) view.findViewById(R.id.skip_next);
-        mTracker = (TextView) getView().findViewById(R.id.tracker);
+        //mTracker = (TextView) getView().findViewById(R.id.tracker);
         mTouchpad = (ImageView) getView().findViewById(R.id.touchpad);
 
 
@@ -197,9 +197,9 @@ public class BlueMoteFragment extends Fragment  {
         mCommandArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.message);
 
         // Initialize the compose field with a listener for the return key
-        mOutEditText.setOnEditorActionListener(mWriteListener);
+        //mOutEditText.setOnEditorActionListener(mWriteListener);
 
-        // Initialize the send button with a listener that for click events
+        /* Initialize the send button with a listener that for click events
         mSendButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Send a message using content of the edit text widget
@@ -210,7 +210,7 @@ public class BlueMoteFragment extends Fragment  {
                     sendMessage(message);
                 }
             }
-        });
+        }); */
         mLeftButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                     String message = "key_left";
@@ -317,14 +317,14 @@ public class BlueMoteFragment extends Fragment  {
                         if (mDetector.onTouchEvent(event))
                             {
                                 message = ("mouse_click");
-                                mTracker.setText("Click detected");
+                                //mTracker.setText("Click detected");
                                 sendMessage(message);
                                 message = "";
                             }
                             else {
 
                             if(message != null) sendMessage(message);
-                            mTracker.setText("X velocity: " + mVelocityTracker.getXVelocity(pointerId) + "; Y velocity : " + mVelocityTracker.getYVelocity(pointerId));
+                            //mTracker.setText("X velocity: " + mVelocityTracker.getXVelocity(pointerId) + "; Y velocity : " + mVelocityTracker.getYVelocity(pointerId));
                             message = "mouse_move(" + mVelocityTracker.getXVelocity(pointerId) + "," + mVelocityTracker.getYVelocity(pointerId) + ")";
 
                             }
@@ -391,7 +391,7 @@ public class BlueMoteFragment extends Fragment  {
 
     /**
      * The action listener for the EditText widget, to listen for the return key
-     */
+
     private TextView.OnEditorActionListener mWriteListener
             = new TextView.OnEditorActionListener() {
         public boolean onEditorAction(TextView view, int actionId, KeyEvent event) {
@@ -405,7 +405,7 @@ public class BlueMoteFragment extends Fragment  {
         }
     };
 
-    /**
+
      * Updates the status on the action bar.
      *
      * @param resId a string resource ID
@@ -554,7 +554,7 @@ public class BlueMoteFragment extends Fragment  {
         public boolean onSingleTapConfirmed (MotionEvent event) {
             Log.d("","Single Tap Confirmed");
             String message = ("mouse_click");
-            mTracker.setText("Click detected");
+            //mTracker.setText("Click detected");
             sendMessage(message);
 
             return true;

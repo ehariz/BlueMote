@@ -24,16 +24,16 @@
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
-        "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\layout\\activity_device_list.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\remote.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -72,16 +72,16 @@
         "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
         "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\layout\\device_name.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",

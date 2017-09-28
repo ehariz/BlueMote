@@ -48,6 +48,10 @@
         "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\drawable\\button_elevation.xml"
     },
     {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\elias\\.android\\build-cache\\fb8f25a01fd8b3133e11e94d0ab432f8efc92bb9\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\drawable\\background.xml"
     },
     {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",

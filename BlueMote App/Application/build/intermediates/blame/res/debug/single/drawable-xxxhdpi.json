@@ -4,6 +4,10 @@
         "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\drawable-xxxhdpi\\ic_skip_next.png"
     },
     {
+        "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_volume_down.png",
         "source": "C:\\Users\\elias\\Documents\\BlueMote\\BlueMote App\\Application\\src\\main\\res\\drawable-xxxhdpi\\ic_volume_down.png"
     },
