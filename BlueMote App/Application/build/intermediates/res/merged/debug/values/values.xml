@@ -18,7 +18,7 @@
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
-    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="background_material_light">#fafafa</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -31,6 +31,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="darkerLightBlue">#00bbff</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -51,6 +52,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <color name="myGray">#725f5f</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
@@ -401,25 +403,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">BluetoothChat</string>
-    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving BlueMote</string>
     <string name="button_scan">Scan for devices</string>
     <string name="discoverable">Make discoverable</string>
-    <string name="intro_message">
-        
-        
-            
-            This application allows two Android devices to carry out two-way text chat over
-            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilites, such as:
-              (1) Scanning for other Bluetooth devices
-              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
-              (3) Establishing RFCOMM channels/sockets
-              (4) Connecting to a remote device
-              (5) Transfering data over Bluetooth
-            
-        
-        
-    </string>
     <string name="none_found">No devices found</string>
     <string name="none_paired">No devices have been paired</string>
     <string name="not_connected">You are not connected to a device</string>
@@ -436,6 +422,9 @@
     <string name="title_not_connected">not connected</string>
     <string name="title_other_devices">Other Available Devices</string>
     <string name="title_paired_devices">Paired Devices</string>
+    <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">#5bc0de</item>
+    </style>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -443,6 +432,7 @@
     <style name="AppTheme" parent="Theme.Sample">
         <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
         <item name="android:textColorPrimary">@android:color/background_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1457,7 +1447,9 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <style name="MyTheme" parent="AppTheme"/>
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:actionMenuTextColor">@color/cardview_dark_background</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1834,16 +1826,6 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <style name="Widget.SampleMessage">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
-        <item name="android:lineSpacingMultiplier">1.1</item>
-    </style>
-    <style name="Widget.SampleMessageTile">
-        <item name="android:background">@drawable/tile</item>
-        <item name="android:shadowColor">#7F000000</item>
-        <item name="android:shadowDy">-3.5</item>
-        <item name="android:shadowRadius">2</item>
-    </style>
     <style name="WindowTitleBackground">
         <item name="android:background">#0000FF</item>
     </style>

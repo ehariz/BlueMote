@@ -25,21 +25,14 @@
     <style name="AppTheme" parent="Theme.Sample" >
         <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
         <item name="android:textColorPrimary">@android:color/background_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
     </style>
     <style name="Widget" />
     <style name="WindowTitleBackground">
         <item name="android:background">#0000FF</item>
     </style>
-    <style name="Widget.SampleMessage">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
-        <item name="android:lineSpacingMultiplier">1.1</item>
-    </style>
-
-    <style name="Widget.SampleMessageTile">
-        <item name="android:background">@drawable/tile</item>
-        <item name="android:shadowColor">#7F000000</item>
-        <item name="android:shadowDy">-3.5</item>
-        <item name="android:shadowRadius">2</item>
+    <style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">#5bc0de</item>
     </style>
 
 </resources>

@@ -19,20 +19,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/white"
     android:orientation="vertical"
     android:weightSum="1">
 
     <ImageView
         android:id="@+id/touchpad"
-        style="@style/Widget.SampleMessage"
         android:layout_width="match_parent"
         android:layout_height="235dp"
         android:background="@color/cardview_dark_background"
-        android:elevation="20dp" />
-    <android.support.v4.widget.Space
-        android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_weight="0.85" />
     <!--
         <TextView
             android:id="@+id/tracker"

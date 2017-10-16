@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="primary_material_light">#2196f3</color>
+    <color name="background_material_light">#fafafa</color>
+    <color name="darkerLightBlue">#00bbff</color>
+    <color name="myGray">#725f5f</color>
 </resources>

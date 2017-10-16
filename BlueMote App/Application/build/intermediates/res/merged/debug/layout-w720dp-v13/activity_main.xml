@@ -27,21 +27,6 @@
           android:layout_weight="1"
           android:orientation="vertical">
 
-        <FrameLayout
-              style="@style/Widget.SampleMessageTile"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content">
-
-            <TextView
-                  style="@style/Widget.SampleMessage"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:paddingLeft="@dimen/margin_medium"
-                  android:paddingRight="@dimen/margin_medium"
-                  android:paddingTop="@dimen/margin_large"
-                  android:paddingBottom="@dimen/margin_large"
-                  android:text="@string/intro_message" />
-        </FrameLayout>
 
         <View
               android:layout_width="match_parent"

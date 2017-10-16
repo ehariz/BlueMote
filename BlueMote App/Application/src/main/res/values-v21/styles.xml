@@ -2,6 +2,7 @@
 <resources>
 
     <style name="MyTheme" parent="AppTheme">
+        <item name="android:actionMenuTextColor">@color/cardview_dark_background</item>
         <item name="android:colorPrimary">@color/primary_material_light</item>
     </style>
 </resources>
